@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.btn button {
+    background-color: #1D4ED8;
+    padding: 8px 16px;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 18px 8%;
+    background-color: #FFFFFF;
+}
+
+.nav-img {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-img {
+    display: flex;
+    align-items: center;    
+    gap:0px;               
+}
+
+.nav-img img {
+    height: 40px;          
+    object-fit: contain;
+}
+
+.nav-img h1 {
+    font-size: 1.1rem;      
+    line-height: 1.1;
+    font-family: sans-serif;
+
+}
