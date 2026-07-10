@@ -46,7 +46,7 @@ nav {
     object-fit: contain;
 }
 
-.name{
+.name {
     margin-top: 100px;
 }
 
@@ -62,20 +62,114 @@ nav {
 /* main style start */
 
 .main-part {
-    background-image:url("./assets/banner.jpg");
+    background-image: url("./assets/banner.jpg");
     min-height: 80vh;
     padding: 80px 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     /* display: grid; */
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
-.main-part ,p,h1{
+.main-part,
+p,
+h1 {
     color: #FFFFFF;
     /* align-items: center; */
-   align-items: center;
+    align-items: center;
 }
+
+/* main style end */
+
+
+
+
+/*cird style*/
+.speaker-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 80px;
+    gap: 56px;
+    font-family: sans-serif;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    align-self: flex-start;
+    margin: 0;
+}
+
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 24px;
+    width: 100%;
+}
+
+.speaker-card {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 642 / 324;
+    object-fit: cover;
+    display: block;
+}
+
+.card-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.badge {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0066cc;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.speaker-name {
+    font-size: 20px;
+    margin: 0;
+    color: #111111;
+}
+
+.speaker-designation {
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+    line-height: 1.4;
+}
+
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+.main-text h1{
+    color: #111;
+    margin-bottom: 30px;
+}
+/* cird style end */
